@@ -20,5 +20,5 @@ class Client:
                     sock.send(data)
                 print('Arquivo enviado!')
 
-client = Client('192.168.1.18', 1112)
+client = Client('', 1112)
 client.start()
